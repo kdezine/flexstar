@@ -1,0 +1,114 @@
+body {
+    overflow: hidden;
+}
+
+header {
+    padding: 5px;
+    display: flex;
+    border-bottom: 2px solid #000;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+header strong {
+    font-weight: normal;
+    font-size: 20px;
+    flex: 1;
+}
+
+header ul {
+    list-style: none;
+}
+
+header ul li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+header ul li a {
+    text-decoration: none;
+    display: block;
+    color: #000;
+    font-weight: 600;
+}
+
+.mainpage {
+    height: calc(100vh - 60px);
+    display: flex;
+}
+
+.sidebar {
+    width: 400px;
+    border-right: 2px solid #000;
+    padding: 35px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    padding: 10px 0;
+}
+
+.sidebar ul li a {
+    cursor: pointer;
+}
+
+.content {
+    flex: 1;
+    padding: 35px;
+    overflow: auto;
+}
+
+.introduction {
+    padding: 50px 100px;
+    background: #f3f3f3;
+    border-radius: 3px;
+}
+
+.introduction h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.introduction p {
+    font-size: 20px;
+}
+
+.blockspace {
+    padding: 30px;
+}
+
+.gridshow {
+    margin: 15px 0;
+    padding: 30px;
+    border: 1px solid #ddd;
+}
+
+.gridshow .fs-grid div {
+    border: 1px solid goldenrod;
+    padding: 15px;
+    background: #fff;
+    color: #000;
+    font-weight: 600;
+}
+
+.gridshow code {
+    background: #f3f3f3;
+    padding: 30px;
+    border-radius: 3px;
+    display: block;
+}
+
+.gridshow label {
+    margin-bottom: 10px;
+    display: block;
+    font-weight: 600;
+    color: blue;
+}

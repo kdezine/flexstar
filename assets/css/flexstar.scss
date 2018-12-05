@@ -1,0 +1,54 @@
+/*--Normalize--*/
+
+@import "../base/normalize";
+
+/*Variables*/
+
+@import "../base/variables";
+
+/*Flex*/
+
+.fs-flex {
+    display: $flex;
+    &.flex-center {
+        align-items: center;
+    }
+    .expand {
+        flex: 1;
+    }
+}
+
+
+/*Grid*/
+
+.fs-grid {
+    display: $grid;
+    grid-template-columns: repeat(12, 1fr);
+    ._1col {
+        grid-column: span 12;
+    }
+    ._2col {
+        grid-column: span 6;
+    }
+    ._3col {
+        grid-column: span 4;
+    }
+    ._4col {
+        grid-column: span 3;
+    }
+    ._6col {
+        grid-column: span 2;
+    }
+    ._8col {
+        grid-column: span 9;
+    }
+    ._9col {
+        grid-column: span 8;
+    }
+    ._12col {
+        grid-column: span 1;
+    }
+}
+
+
+/*End Flex*/

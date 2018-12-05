@@ -1,0 +1,60 @@
+/*--Normalize--*/
+* {
+  box-sizing: border-box; }
+
+body,
+ul,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+pre,
+strong,
+b,
+label,
+i {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: sans-serif; }
+
+/*Variables*/
+/*--Display--*/
+/*--Position--*/
+/*--Font Sizes--*/
+/*End Variables*/
+/*Flex*/
+.fs-flex {
+  display: flex; }
+  .fs-flex.flex-center {
+    align-items: center; }
+  .fs-flex .expand {
+    flex: 1; }
+
+/*Grid*/
+.fs-grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr); }
+  .fs-grid ._1col {
+    grid-column: span 12; }
+  .fs-grid ._2col {
+    grid-column: span 6; }
+  .fs-grid ._3col {
+    grid-column: span 4; }
+  .fs-grid ._4col {
+    grid-column: span 3; }
+  .fs-grid ._6col {
+    grid-column: span 2; }
+  .fs-grid ._8col {
+    grid-column: span 9; }
+  .fs-grid ._9col {
+    grid-column: span 8; }
+  .fs-grid ._12col {
+    grid-column: span 1; }
+
+/*End Flex*/

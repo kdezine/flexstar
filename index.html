@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Flex Star - A micro CSS Framework</title>
+    <meta charset="utf-8">
+    <meta name="description" content="The HTML5 Herald">
+    <meta name="author" content="SitePoint">
+    <link href="assets/css/flexstar.css" type="text/css" rel="stylesheet">
+    <link href="assets/css/docs.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <a href="" class="logo"><img src="assets/media/logo.jpg" alt="logo" width="50"></a>
+        <strong>Flexstar | A Micro CSS Framework</strong>
+        <ul>
+            <li><a href="">Docs</a></li>
+            <li><a href="">UI Components</a></li>
+            <li><a href="">Download</a></li>
+
+        </ul>
+    </header>
+    <main class="mainpage">
+        <aside class="sidebar">
+            <ul>
+                <li><a>Introduction</a></li>
+                <li><a>Compatibility &amp; Devices</a></li>
+                <li><a>UI Components</a></li>
+                <li><a>Grid</a></li>
+            </ul>
+        </aside>
+        <section class="content">
+            <div id="sec1">
+                <div class="introduction">
+                    <h1>Introduction</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                        specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                        passages, and more recently with desktop publishing </p>
+                </div>
+                <div class="blockspace">&nbsp;</div>
+                <div class="fs-grid fs-features">
+                    <div class="_4col">
+                        <i class="fa fa-feather-alt icon"></i>
+                        <h2>Lightweight</h2>
+                    </div>
+                    <div class="_4col"><i class="fa fa-creative-commons icon"></i>
+                        <h2>Open Source</h2>
+                    </div>
+                    <div class="_4col">
+                        <i class="fa fa-feather-alt icon"></i>
+                        <h2>Mobile Friendly</h2>
+                    </div>
+                    <div class="_4col"><i class="fa fa-feather-alt icon"></i>
+                        <h2>Easy to Use</h2>
+                    </div>
+                </div>
+            </div>
+            <p>&nbsp;<br>&nbsp;</p>
+            <div id="sec4" class="section">
+                <h2 class="section-title">Grid System</h2>
+
+                <div class="gridshow">
+                    <label>One Column Grid</label>
+                    <div class="fs-grid">
+                        <div class="_1col">_1col</div>
+                    </div>
+                    <code>
+                        &lt;div class="fs-grid"&gt;&lt;div class="_1col"&gt;&lt;/div&gt;&lt;/div&gt;
+                    </code>
+                </div>
+                <div class="gridshow">
+                    <label>2 Column Grid</label>
+                    <div class="fs-grid">
+                        <div class="_2col">_2col</div>
+                        <div class="_2col">_2col</div>
+                    </div>
+                    <code>
+                            &lt;div class="fs-grid"&gt;&lt;div class="_2col"&gt;&lt;/div&gt;&lt;div class="_2col"&gt;&lt;/div&gt;&lt;/div&gt;
+                        </code>
+                </div>
+                <div class="gridshow">
+                    <label>3 Column Grid</label>
+                    <div class="fs-grid">
+                        <div class="_3col">_3col</div>
+                        <div class="_3col">_3col</div>
+                        <div class="_3col">_3col</div>
+                    </div>
+                    <code>
+                            &lt;div class="fs-grid"&gt;&lt;div class="_3col"&gt;&lt;/div&gt;&lt;div class="_3col"&gt;&lt;/div&gt;&lt;div class="_3col"&gt;&lt;/div&gt;&lt;/div&gt;
+                        </code>
+                </div>
+                <div class="gridshow">
+                    <label>4 Column Grid</label>
+                    <div class="fs-grid">
+                        <div class="_4col">_4col</div>
+                        <div class="_4col">_4col</div>
+                        <div class="_4col">_4col</div>
+                        <div class="_4col">_4col</div>
+                    </div>
+                    <code>
+                            &lt;div class="fs-grid"&gt;&lt;div class="_4col"&gt;&lt;/div&gt;&lt;div class="_4col"&gt;&lt;/div&gt;&lt;div class="_4col"&gt;&lt;/div&gt;&lt;div class="_4col"&gt;&lt;/div&gt;&lt;/div&gt;
+                        </code>
+                </div>
+                <div class="gridshow">
+                    <label>6 Column Grid</label>
+                    <div class="fs-grid">
+                        <div class="_6col">_6col</div>
+                        <div class="_6col">_6col</div>
+                        <div class="_6col">_6col</div>
+                        <div class="_6col">_6col</div>
+                        <div class="_6col">_6col</div>
+                        <div class="_6col">_6col</div>
+
+                    </div>
+                    <code>
+                            &lt;div class="fs-grid"&gt;&lt;div class="_6col"&gt;&lt;/div&gt;&lt;div class="_6col"&gt;&lt;/div&gt;&lt;div class="_6col"&gt;&lt;/div&gt;&lt;div class="_6col"&gt;&lt;/div&gt;&lt;div class="_6col"&gt;&lt;/div&gt;&lt;div class="_6col"&gt;&lt;/div&gt;&lt;/div&gt;
+                        </code>
+                </div>
+
+                <hr>
+                <div class="gridshow">
+                    <label>Mixed Grid</label>
+                    <div class="fs-grid">
+                        <div class="_2col">_2col</div>
+                        <div class="_4col">_4col</div>
+                        <div class="_4col">_4col</div>
+                    </div>
+                    <p>&nbsp;</p>
+                    <div class="fs-grid">
+                        <div class="_4col">_4col</div>
+                        <div class="_4col">_4col</div>
+                        <div class="_2col">_2col</div>
+                    </div>
+                </div>
+                <div class="gridshow">
+                    <label>Mixed Grid</label>
+                    <div class="fs-grid">
+                        <div class="_4col">_4col</div>
+                        <div class="_8col">_8col</div>
+                    </div>
+                    <p>&nbsp;</p>
+                    <div class="fs-grid">
+                        <div class="_8col">_8col</div>
+                        <div class="_4col">_4col</div>
+                    </div>
+                </div>
+                <div class="gridshow">
+                    <label>Mixed Grid</label>
+                    <div class="fs-grid">
+                        <div class="_3col">_3col</div>
+                        <div class="_9col">_9col</div>
+                    </div>
+                    <p>&nbsp;</p>
+                    <div class="fs-grid">
+                        <div class="_9col">_9col</div>
+                        <div class="_3col">_3col</div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
